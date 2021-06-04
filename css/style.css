@@ -1,0 +1,203 @@
+body {
+    overflow: hidden;
+}
+
+header {
+    font-family:'Lato', sans-serif;
+    height: 10%;
+}
+
+
+
+.topbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family:'Lato', sans-serif;
+    background-color: #ffffff;
+    margin: auto;
+}
+
+.arrondissements {
+    height: 100%;
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+    font-size: larger;
+}
+
+.arrondissements ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #000000;  
+    margin: 0;
+}
+
+.arrondissements ul li {
+    list-style-type: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #dc1d22;
+    
+}
+
+.arrondissements a {
+    color: #dc1d22;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    transition: ease 1s;
+    
+}
+
+.arrondissements a:hover {
+    border-bottom: solid 1px #000000;
+    transition: ease 1s;
+}
+
+.arrondissements span {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.arrondissements li:first-child {
+    padding-left: 30px;
+}
+
+.medias {
+    margin: auto;
+}
+
+.medias ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    
+}
+
+.medias ul li{
+    list-style-type: none;
+}
+
+.medias ul li a{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #dc1d22;
+    transition: ease 0.5s;
+}
+
+.login:hover {
+    text-decoration: none;
+    background-color: #000000;
+    transition: ease 0.5s;
+}
+
+.login a{
+    padding-left: 50px;
+    padding-right: 50px;
+    text-decoration: none;
+    color: white; 
+}
+
+.navbar {
+    height: 40px;
+    background-color: #dc1d22;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    /* padding: 20px; */
+}
+.navbar ul li {
+    list-style-type: none;
+
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #ffffff;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    transition: ease 0.5s;
+}
+
+.navbar a:hover {
+    background-color: #ffffff;
+    color: #dc1d22;
+}
+
+/* =========================================MAP======================================= */
+
+.contenter {
+    width: 100vw;
+    height: 70%;
+}
+
+#map{ /* la carte DOIT avoir une hauteur sinon elle n'apparaît pas */
+    height:700px;
+}
+
+.station-infos {
+    border: solid 1px #dc1d22 ;
+    border-radius: 5px;
+    padding: 15px;
+    font-family: 'Lato', sans-serif;
+}
+
+.station-infos li {
+    list-style-type: square;
+}
+
+.reserve {
+    background-color: #045ca4;
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+.reserve:hover {
+    background-color: #dc1d22;
+    color: #ffffff;
+    border-color: #dc1d22;
+}
+
+/* =============================================FOOTER===================================== */
+
+.footer {
+    bottom: 0;
+    width: 100vw;
+    margin: auto;
+    position: absolute;
+    background-color: #ffffff;
+    height: 20%;
+    font-family:'Lato', sans-serif;
+    z-index: 1;
+    
+}
+.footer-bar {
+    height: 50px;
+    width: 100%;
+    background-color: #1e1719;
+    padding: 10px;
+    margin: auto;
+}
+
+.footer-infos {
+    padding: 35px;
+}
+
+.footer-medias li {
+    list-style-type: none;
+}
